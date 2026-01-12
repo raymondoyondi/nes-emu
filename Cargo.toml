@@ -1,17 +1,23 @@
 [package]
-name = "nes"
+name = "nes-emu-egui"
 version = "0.1.0"
-authors = ["Raymond Oyondi <raymondoyondi@gmail.com>"]
+edition = "2021"
+
+#[profile.release]
+#panic = "abort"
+#lto = "fat"
+#codegen-units = 1
 
 [dependencies]
-bitfield = "0.12.0"
-itertools = "0.6.1"
-libretro-backend = "0.2"
-rand = "0.3"
-time = "0.1"
-
-[lib]
-crate-type = ["cdylib"]
-
-[features]
-log = []
+eframe = { version = "0.27.2", features = ["persistence"] }
+egui_extras = { version = "0.27.2", features = ["image", "svg"]}
+image = { version = "0.24.7", features = ["png"] }
+rfd = "0.15.2"
+fastrand = "2.0.1"
+cpal = "0.15.2"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.138"
+typetag = "0.2.14"
+dyn-clone = "1.0.16"
+gilrs = { version = "0.11.0", features = ["serde-serialize"] }
+uuid = { version = "1.6.1" , features = ["serde"]}
