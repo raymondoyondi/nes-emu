@@ -2,7 +2,7 @@
 name = "nes-emulator"
 version = "0.1.0"
 edition = "2021"
-authors = {"Raymond Oyondi <raymondoyondi@gmail.com>"]
+authors = ["Raymond Oyondi <raymondoyondi@gmail.com>"]
 description = "A Nintendo Entertainment System (NES) emulator built in Rust."
 
 #[profile.release]
