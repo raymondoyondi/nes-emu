@@ -26,10 +26,10 @@ Here is an example of one of the games available on the emulator: **Super Mario 
 
 | Component | Status | Description |
 | :--- | :--- | :--- |
-| **CPU (2A03)** | ✅ Complete | Full instruction set including unofficial opcodes and cycle timing. |
-| **PPU (2C02)** | ✅ Complete | Cycle-level rendering, background, sprite evaluation, and full scanline implementation. |
-| **APU** | ✅ Complete | Full implementation of Pulse, Triangle, Noise, and DMC channels with envelope and sweep functionality. |
-| **Mappers** | ✅ Complete | Comprehensive support for all major mappers including NROM (Mapper 0), MMC1, MMC3, and a wide array of others. |
+| **CPU (2A03)** | ✅  Complete | Full instruction set including unofficial opcodes and cycle timing. |
+| **PPU (2C02)** | ✅  Complete | Cycle-level rendering, background, sprite evaluation, and full scanline implementation. |
+| **APU** | ✅  Complete | Full implementation of Pulse, Triangle, Noise, and DMC channels with envelope and sweep functionality. |
+| **Mappers** | ✅  Complete | Comprehensive support for all major mappers including NROM (Mapper 0), MMC1, MMC3, and a wide array of others. |
 
 
 
