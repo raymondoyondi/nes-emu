@@ -53,8 +53,8 @@ Ensure you have the latest stable version of [Rust](https://www.rust-lang.org/to
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/raymondoyondi/Nes-Emulator.git](https://github.com/raymondoyondi/Nes-Emulator.git)
-   cd Nes-Emulator
+   git clone [https://github.com/raymondoyondi/nes-emu.git](https://github.com/raymondoyondi/nes-emu.git)
+   cd nes-emu
 2. Build the project:
    For the best experience, build with the `--release` flag to enable Rust's performance optimizations:
    ```bash
